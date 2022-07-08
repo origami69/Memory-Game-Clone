@@ -1,0 +1,119 @@
+.container{
+  background: rgb(43, 135, 209) none repeat scroll 0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+.gameIntro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+ 
+}
+.gameHold{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.gameEnd{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+button{
+  background: rgb(255, 209, 84) none repeat scroll 0% 0%;
+  color: black;
+  cursor: pointer;
+  border-radius: .2rem;
+  border: none;
+  padding:1.3rem;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 600;
+  font-size: x-large;
+  transition: background .5s;
+}
+button:hover{
+  background: white;
+  transition: background .5s;
+}
+div{
+  width: fit-content;
+}
+.gameName{
+  font-weight: 500;
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+.gameInstruct{
+  margin-bottom: 2rem;
+  font-size: larger;
+  font-weight: 400;
+}
+.livesAndScore{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.Lives{ 
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: x-large;
+  font-weight: 400;
+}
+  .score{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: x-large;
+    font-weight: 400;
+  }
+  .bestScore{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: x-large;
+    font-weight: 400;
+  }
+  p{
+    margin-right: .5rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .wordPop{
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    font-weight: 500;
+  }
+  .seen{
+    margin-right: 2rem;
+  }
+  .new{
+    margin-left: 2rem;
+  }
+  .wordFinish{
+    display: flex;
+    flex-direction: row;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+  .wordsAnum{
+    margin-left: 1rem;
+  }
+  .gameNamer{
+    font-size: x-large;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
